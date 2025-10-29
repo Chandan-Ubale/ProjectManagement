@@ -1,0 +1,86 @@
+# ---------------------------
+# IDE SETTINGS
+# ---------------------------
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ---------------------------
+# CUSTOM INTENTIONAL IGNORES
+# ---------------------------
+st.txt
+sourceCode.bat
+allSource.txt
+appsettings.Development.json
+
+# ---------------------------
+# BUILD OUTPUT
+# ---------------------------
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+artifacts/
+bld/
+logs/
+*.pidb
+*.pdb
+*.cache
+
+# ---------------------------
+# TEST & BENCHMARK OUTPUT
+# ---------------------------
+TestResults/
+BenchmarkDotNet.Artifacts/
+
+# ---------------------------
+# CONFIG / ENV FILES
+# ---------------------------
+*.env
+*.local.json
+*.db
+*.sqlite
+
+# ---------------------------
+# GENERATED FILES
+# ---------------------------
+*.g.cs
+*.g.i.cs
+*.Designer.cs
+*.generated.cs
+ScaffoldingReadMe.txt
+publish/
+
+# ---------------------------
+# PACKAGE MANAGEMENT
+# ---------------------------
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# ---------------------------
+# LOGS & TEMP
+# ---------------------------
+*.log
+*.tlog
+*.tmp
+*.temp
+
+# ---------------------------
+# OS FILES
+# ---------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---------------------------
+# DOCKER / DEPLOYMENT
+# ---------------------------
+docker-compose.override.yml
